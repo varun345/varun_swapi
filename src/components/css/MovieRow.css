@@ -1,0 +1,81 @@
+.MovieRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  background: rgba(34, 34, 34, 0.1);
+  padding: 10px;
+}
+
+.MovieRow > div:first-child {
+  border: #01d277 solid 4px;
+  border-radius: 10px;
+}
+
+.MovieRow img {
+  border-radius: 6px;
+}
+
+.MovieRow > div {
+  height: 278px;
+}
+
+.MovieRow > div:last-child {
+  width: 100%;
+  position: relative;
+}
+
+.MovieRow p {
+  padding: 0 5px;
+}
+
+.MovieRow div * {
+  color: #222;
+}
+
+.MovieRow input {
+  border-color: #01d277;
+  padding: 5px 15px;
+}
+
+.MovieRow div > div {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.heart {
+  background-color: #01d277;
+  display: inline-block;
+  height: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 15px;
+}
+
+.toggled.heart,
+.toggled.heart:before,
+.toggled.heart:after {
+  background-color: black;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #01d277;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+}
+
+.heart:before {
+  top: -10px;
+  left: 0;
+}
+
+.heart:after {
+  left: 10px;
+  top: 0;
+}

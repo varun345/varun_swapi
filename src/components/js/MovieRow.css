@@ -1,0 +1,95 @@
+.MovieRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+  background: black;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+.MovieRow > div:first-child {
+  border: #01d277 solid 4px;
+  border-radius: 10px;
+}
+
+.MovieRow img {
+  border-radius: 6px;
+}
+
+/*.MovieRow > div {
+  height: 278px;
+}*/
+
+.MovieRow > div:last-child {
+  width: 100%;
+  position: relative;
+}
+
+.Search {
+    margin: 50px;
+   
+}
+
+.MovieRow p {
+  padding: 0 50px;
+}
+
+.MovieRow div * {
+  color: #ffffff;
+}
+
+.MovieRow input {
+    border-color: orange;
+    padding: 5px 25px;
+    margin-left: 50px;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+.MovieRow div > div {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.heart {
+  background-color: red;
+  display: inline-block;
+  height: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 15px;
+}
+
+.toggled.heart,
+.toggled.heart:before,
+.toggled.heart:after {
+  background-color: yellow;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+}
+
+.heart:before {
+  top: -10px;
+  left: 0;
+}
+
+.heart:after {
+  left: 10px;
+  top: 0;
+}

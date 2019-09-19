@@ -1,0 +1,345 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #3F3D34;
+  font-family: Raleway;
+  font-size: 14px;
+  height: 1000px;
+}
+
+
+.top-margin {
+  margin-top: 15px;
+}
+
+.mainNav {
+  padding: 15px;
+  box-shadow: -1px 4px 5px #181818;
+  background-color: #808080;
+  color: #222222;
+  z-index: 10;
+}
+
+.apiNav {
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 15px;
+  box-shadow: -1px 4px 5px #181818;
+  background-color: #808080;
+  color: #222222;
+}
+
+.nav-wrapper {
+  background-color: rgba(0, 0, 0, 0.51);
+}
+
+.nav-title {
+  font-family: Arizonia;
+  font-size: 125%;
+}
+
+.navbar-inverse {
+  border-color: #222222;
+}
+
+.pagination{
+  margin: 0 auto;
+}
+
+.app-body {
+  padding: 0px 15px 30px 15px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.card-header{
+  color: #222;
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+}
+
+.instructions{
+  margin: 20px 0 20px 0;
+}
+
+.explorer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 60vw;
+  overflow: hidden;
+}
+
+.card {
+  color: #222;
+}
+
+.card-title{
+  text-transform: uppercase;
+}
+
+.films-explorer {
+  background: #000;
+  overflow: hidden;
+}
+
+.explorer-nav {
+  height: 60px;
+  padding-top: 10px;
+  ;
+}
+
+.explorer-nav, .explorer-nav-btn {
+  color: #FDF253;
+  border-color: #FDF253;
+  background-color: #222222;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navbar-nav{
+  text-transform: uppercase;
+}
+
+.nav-links {
+  font-weight: bold;
+  font-size: 15px;
+  color: #222222;
+  position: relative;
+  z-index: 2;
+  background-color: grey;
+}
+
+.nav-links:hover {
+  background-color: grey;
+}
+
+.filter-col {
+  border-bottom: 1px solid grey;
+  margin-bottom: 15px;
+}
+
+.exp-col{
+  padding: 25px;
+}
+
+
+
+.scroll {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.btn-primary{
+  background-color: #444;
+}
+
+.back-btn-col {
+  margin-top: 20px;
+}
+
+.headings {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sub-headings {
+  font-style: italic;
+  color: #9E9E9E;
+}
+
+.fa {
+  //font-size: 1.5em;
+}
+
+.fa-info-circle {
+  //font-size: 1.5em;
+}
+
+.main-card {
+  box-shadow: 0px 2px 3px #717171;
+  padding: 5px 15px 15px 15px;
+  margin: 5px;
+}
+
+.card {
+  margin: 5px;
+}
+
+.profile-details {
+  padding-top: 20px;
+}
+
+
+
+.filter-col {
+  background-color: rgb(211, 211, 211);
+  box-shadow: 1px 1px 2px 0px rgb(128, 128, 128);
+}
+
+.tiles {
+  margin: 20px;
+  text-align: center;
+  height: 300px;
+  color: #fff;
+  box-shadow: -1px 4px 5px #9E9E9E;
+  text-transform: uppercase;
+}
+
+.btn-explorer {
+  position: relative;
+  bottom: -150px;
+}
+
+.people-tile {
+  background-image: url('http://pngimg.com/uploads/stormtrooper/stormtrooper_PNG9.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.people-tile:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.starship-tile {
+  background-image: url('http://www.pngall.com/wp-content/uploads/2016/03/Star-Wars-Ship-PNG.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.film-tile {
+  background-image: url('https://vignette3.wikia.nocookie.net/starwars/images/2/24/EPII_AotC_poster.png/revision/latest?cb=20130822173923');
+  background-size: auto;
+  background-position: center;
+}
+
+.dd {
+  color: #747474;
+}
+
+.back {
+  margin-top: 30px;
+}
+
+.profile-pic {
+  background-image: url('https://maxcdn.icons8.com/Share/icon/ios7/Logos//star_wars1600.png');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid yellow;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* General styles and layout */
+
+.starwars {
+  height: 17em;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 34em;
+}
+
+.byline span {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.byline {
+  position: absolute;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 3.25em;
+  left: -2em;
+  letter-spacing: 0.4em;
+  right: -2em;
+  text-align: center;
+  text-transform: uppercase;
+  top: 29%;
+}
+
+
+/*** Media queries for adjusting to different screen sizes ***/
+
+@media only screen and (max-width: 600px) {
+  .starwars {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .starwars {
+    font-size: 7px;
+  }
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 150% 0; }
+}
+
+html, body, #react_app, #react_app > div {
+  height: 100%;
+}
+.modal-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.modal-item {
+  align-self: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.glyphicon {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn {
+  margin: 10px;
+}
